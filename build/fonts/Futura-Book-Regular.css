@@ -1,0 +1,11 @@
+/** Created by TTF.in.ua **/
+@font-face {
+    font-family: 'Futura-Book-Regular';
+    src: url('Futura-Book-Regular.eot');
+    src: url('Futura-Book-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Futura-Book-Regular.woff') format('woff'),
+         url('Futura-Book-Regular.ttf') format('truetype'),
+         url('Futura-Book-Regular.svg#Futura-Book-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

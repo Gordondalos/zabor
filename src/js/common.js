@@ -1,5 +1,14 @@
 $(document).ready(function() {
 
+
+	console.log(123456789);
+	$('.fa-bars').click(function () {
+		$('.hidden-menu').slideToggle(1000);
+
+	});
+
+
+
 	//Цели для Яндекс.Метрики и Google Analytics
 	$(".count_element").on("click", (function() {
 		ga("send", "event", "goal", "goal");
@@ -51,3 +60,6 @@ $(window).load(function() {
 	$(".loader").delay(400).fadeOut("slow");
 
 });
+
+
+

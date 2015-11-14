@@ -26,6 +26,15 @@
 			min-height: 400px
 		.head
 			min-height: 200px
+		.slider
+			.slider-wrap
+				padding: 0
+
+				h2
+					display: none
+	.section_2
+		height: 60px
+
 
 
 	.navi
@@ -45,9 +54,28 @@
 ///* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
 	.section_1
+		height: auto
+		.head
+			min-height: 280px
+		.rows
+			.time
+				display: none
+
+
+		.bg
+			min-height: 140px
+
+			height: auto
 		h1
 			font-size: 40px
+		.slider
+			.slider-wrap
+				padding: 0
+				h2
+					display: none
 
+	.section_2
+		height: 40px
 
 
 //
@@ -73,8 +101,12 @@
 //		//animation: none !important
 //
 ///* Extra Small Devices, Phones */
-////@media only screen and (max-width : 480px)
-//	/**/
+@media only screen and (max-width : 480px)
+	.section_1
+		.head
+			min-height: 100px
+	.section_2
+		height: 0
 //
 ///* Custom, iPhone Retina */
 ////@media only screen and (max-width : 320px)

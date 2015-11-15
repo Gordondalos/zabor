@@ -47,12 +47,12 @@ $(document).ready(function() {
 			var itogo = cenamateriala+cenarabot; // итого
 
 			itogo = itogo.toFixed(2);
-			$('#profnastil').append("<span id='add'>стоимоть вашего забора: "+itogo+"рублей</span>");
+			$('#profnastil').append("<span id='add'>Стоимоть вашего забора: "+itogo+"рублей</span>");
 
 		}
 		else{
 
-			$('#profnastil').append("<span id='add'>Цена забора обязательный параметр</span>");
+			$('#profnastil').append("<span id='add'>Длина забора обязательный параметр</span>");
 
 
 		}
